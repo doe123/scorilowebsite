@@ -1,0 +1,70 @@
+.hero-shop {height: 260px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+.text-hero {position: absolute;
+text-align: center;
+height: 200px;
+top: 0;
+display: flex;
+align-items: center;
+color: #fff;
+z-index: 3;
+h2 {font-weight: 300;
+    font-size: 42px;
+    
+    letter-spacing: 3px}}}
+img {height: 100%;
+    width: 100%;
+object-fit: cover;
+position: relative;}
+
+//PRODUCT SHOP CONTAINER
+.productshop-container {max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+background-color: #fff;
+position: relative;
+
+top: -60px;
+.newpage-title {text-align: center;
+    padding-top: 60px;
+.newpage-stars{height: 50px;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto;
+              padding-top: 15px;
+    .newpage-wow{display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+i{margin: 2px;
+    font-size: 16px;
+line-height: 20px;
+height: 20px;
+width: 20px;
+
+text-align: center;
+color: #e4e4e4;}
+i::before{content: "\f005";}
+}
+.newpage-wow::after{content: "";
+height: 1px;
+display: inline-block;
+vertical-align: top;
+width: 50%;
+margin-left: 15px;
+position: relative;
+background-color: #e4e4e4;}
+.newpage-wow::before{content: "";
+    height: 1px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: 15px;
+    position: relative;
+    background-color: #e4e4e4;}
+}
+}}
+

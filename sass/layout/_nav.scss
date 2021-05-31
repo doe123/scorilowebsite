@@ -1,0 +1,46 @@
+
+
+.logo {a{text-decoration: none;
+font-size: 30px;
+color: #3D566E;
+font-weight: 700;}
+a:hover{color: $green;}}
+nav {height: 80px;
+    
+text-transform: uppercase;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+ul{cursor: pointer;
+    li{display: inline-block;
+        text-transform: uppercase;
+        
+        margin-left: 20px;
+        
+    a{text-decoration: none;
+        font-weight:700;
+        
+    font-size: 18px;
+    color: #3D566E;
+    cursor: pointer;
+    }
+    a:hover{color: $green;}}}}
+
+.hero {height:550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text {position: absolute;
+    z-index: 3;
+    color: #fff;
+   text-align: center;
+  h2{font-size: 75px;
+    font-weight: 700;
+   text-transform: uppercase;}
+h3 {font-size: 75px;
+font-weight: 100;
+line-height: 90px;}}
+img {height: 100%;
+width: 100%;
+position: relative;}}

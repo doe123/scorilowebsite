@@ -1,0 +1,85 @@
+.tijelo {height: fit-content;}
+.shoppp {margin-top: 30px;}
+.secondrow {margin-top: 30px;}
+.row-shopitems {display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;}
+
+
+
+.shop-box {height: 422px;
+width: 360px;
+padding: 13px;
+border: 1px solid #e4e4e4;}
+
+.fade-box:hover .caption-box {opacity: 1;
+    display: block;
+    z-index: 4;
+    cursor: pointer;
+transition: 0.4s;}
+.fade-box {overflow: hidden;
+max-height: 300px;
+position: relative;
+color: #fff;
+
+.caption-box{
+position: absolute;
+width: 100%;
+height: 100%;
+opacity: 0;
+top: 0;
+left: 0;
+text-align: center;
+background-color: #00bba7;
+justify-content: flex-start;
+flex-direction: column;
+//----------------------------------------
+h3 {font-size: 25px;
+margin: 30px 20px 10px;
+text-transform: uppercase;
+font-family: "Roboto", sans-serif;
+line-height: 1.1;}
+//-----------------------------------------
+p {font-size: 17px;
+margin: 0 20px 15px;
+line-height: 1.7;}
+//-----------------------------------
+.links-box {line-height: 1.7;
+margin: 0 20px 15px;
+font-size: 17px;
+a {border: 1px solid #fff;
+padding: 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+min-width: 120px;
+color: #fff;
+background: transparent;
+font-weight: bold;}
+//-----------------------------------------
+a:hover {color: #444;
+        transition: 0.4s;}
+}
+//-------------------------------------------
+} //-captionbox end
+} // fadebox end
+
+.box-details {text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    h1{font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #333;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #eeeeee;}
+    h1::after{content: "";
+        height: 1px;
+        border-bottom: 2px solid #eeeeee;
+        position: relative;
+        display: block;
+        width: 100%;
+        bottom: -9px;}
+a{text-decoration: none;}}
